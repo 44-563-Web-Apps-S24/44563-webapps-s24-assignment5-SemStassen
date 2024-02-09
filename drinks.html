@@ -231,6 +231,37 @@
       </div>
     </div>
     <hr />
-    <div style="height: 200px"></div>
+    <div class="container">
+      <form>
+        <div class="mb-2">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-2">
+          <label for="drink" class="form-label">Drink</label>
+          <input
+            type="text"
+            class="form-control"
+            id="drink"
+            placeholder="Enter your drink"
+          />
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label" for="newsletter"
+            >Sign up for newsletter?</label
+          >
+          <input type="checkbox" class="form-check-input" id="newsletter" />
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
